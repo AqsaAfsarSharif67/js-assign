@@ -17,7 +17,7 @@ function registrationForm(){
         }
         if (email === "") {
             result.innerHTML = "Enter your Email*";
-            return false;
+            return false
         }
 
     result.innerHTML = "";
